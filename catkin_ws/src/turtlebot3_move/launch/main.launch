@@ -1,0 +1,28 @@
+<launch>
+    <node pkg ="turtlebot3_move"
+        type="turtlebot3_move_client.py"
+        name="turtlebot3_move_client_node"
+        output="screen">
+    </node>
+    
+    <node pkg ="turtlebot3_move"
+        type="turtlebot3_move_server.py"
+        name="turtlebot3_move_server_node"
+        output="screen">
+    </node>
+
+
+ 
+
+    <node pkg ="turtlebot3_move"
+        type = "record_odom_server.py"
+        name = "record_odom"
+        output = "screen">
+    </node>
+
+    
+ 
+    
+    
+
+</launch>

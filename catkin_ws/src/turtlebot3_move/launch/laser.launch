@@ -1,0 +1,15 @@
+<launch>
+
+    <node pkg ="turtlebot3_move"
+        type="laser.py"
+        name="scan_values"
+        output="screen">
+    </node>
+
+
+
+ 
+    
+    
+
+</launch>

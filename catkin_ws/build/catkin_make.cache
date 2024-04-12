@@ -1,0 +1,2 @@
+turtlebot3_move
+-DCATKIN_DEVEL_PREFIX=/home/kevin/ros-basics-real-robot-project/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/kevin/ros-basics-real-robot-project/catkin_ws/install -G Unix Makefiles
